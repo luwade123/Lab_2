@@ -15,7 +15,7 @@ class Topology(Topo):
         s1 = self.addSwitch('s1')
         s2 = self.addSwitch('s2')
         s3 = self.addSwitch('s3')
-	s4 = self.addSwitch('s4')
+        s4 = self.addSwitch('s4')
 
         # Add links into topology
 	# [TODO] Add contraints(bw, delay, loss)
