@@ -6,8 +6,6 @@ class Topology(Topo):
     def __init__(self):
         # Initialize topology
         Topo.__init__(self)
-
-        os.system("figlet Lab2 Topo")
 	
 	# Add hosts into topology
         h1 = self.addHost('h1')
